@@ -65,3 +65,6 @@ Esta aplicación está actualmente desplegada en https://www.quepeliveo.es. Actu
 
 En estos momentos se está trabajando para implementar un sistema de usuarios en el que se pueda llevar un registro personal de películas vistas, listas personalizadas, etc... estate atento para más! 🔥
 
+
+
+### © QuePeliVeo 2025
