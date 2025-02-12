@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QuePeliVeo?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+    <meta charset="UTF-8">
+
+    <!-- Open Graph / Facebook -->
+   <meta property="og:type" content="website" />
+   <meta property="og:url" content="https://www.quepeliveo.es/" />
+   <meta property="og:title" content="QuePeliVeo?" />
+   <meta property="og:description" content="No pierdas mas tiempo eligiendo películas! " />
+   <meta property="og:image" content="https://www.quepeliveo.es/img/qpv-preview.jpg" />
+
+   <!-- Twitter -->
+   <meta property="twitter:url" content="https://www.quepeliveo.es/" />
+   <meta property="twitter:title" content="QuePeliVeo?" />
+   <meta property="twitter:description" content="No pierdas mas tiempo eligiendo películas! " />
+   <meta property="twitter:image" content="https://www.quepeliveo.es/img/qpv-preview.jpg" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                QUEPELIVEO
+            </a>
+	       <div class="ms-auto">
+                  <button class="btn btn-dark text-white me-2 border-0" onclick="location.href='./pages/howto.html'">CÓMO FUNCIONA</button>
+                  <button class="btn btn-dark text-white me-2 border-0" onclick="location.href='./pages/developing.html'">Mi cuenta</button>
+                  <button class="btn btn-dark text-white me-2 border-0" onclick="location.href='./pages/developing.html'">Mis listas</button>
+                  <button class="btn btn-dark text-white border-0" onclick="location.href='./pages/contacto.html'">Contacto</button>
+               </div>
+        </div>
+    </nav>
+
+    <div id="container" class="container d-flex justify-content-center align-items-center">
+        <img src="./img/logo.png " class="col-12" id="logo-img">
+        <div class="logo-text">QUEPELIVEO</div>
+        <div class="slogan mb-3">DON'T WASTE, JUST FUN!</div>
+        <form id="specs" class="w-100">
+            <div class="row form-group d-flex justify-content-center align-items-center">
+                <div class="col-md-4 mb-3">
+                    <select id="selector" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected disabled>¿Cuantas opciones quieres?</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input class="form-control" id="prompt" placeholder="Cuéntame... ¿Qué quieres ver? 😏"
+                        maxlength="55">
+                </div>
+                <div class="w-50 d-flex justify-content-center">
+                    <button id="recomendar-btn" type="submit" class="btn btn-outline-dark w-50">Que puedo ver!</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="peliculas" href="#peliculas" class="row gap-4 d-flex justify-content-center custom-margin-top">
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 QuePeliVeo</p>
+        <p><a href="" class="cookielink">Política de cookies</a></p>
+        <p>Made with <i class="fa fa-heart"></i> by Diego Valdés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

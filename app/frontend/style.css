@@ -1,0 +1,115 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #f8f9fa !important;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.fixed-height-card {
+    height: 10%;
+}
+
+.fixed-height-text {
+    display: -webkit-box;
+
+    -webkit-line-clamp: 10;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.fixed {
+    height: 16em;
+}
+
+.transparente {
+    opacity: 0.6;
+    cursor: default;
+    pointer-events: none;
+}
+
+.fixed-height-title {
+    display: -webkit-box;
+
+    height: 2.5em;
+
+    -webkit-line-clamp: 2;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.fixed-image {
+    height: 25em;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.boton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img {
+    width: 30em;
+    margin-bottom: 0;
+}
+
+.slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo-text {
+    font-size: 5em;
+    height: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cookielink {
+    color: white;
+    text-decoration: none;
+}
+
+.explain {
+    font-weight: bold;
+    text-align: justify;
+}
