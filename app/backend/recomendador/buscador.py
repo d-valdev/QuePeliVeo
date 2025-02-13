@@ -8,10 +8,10 @@ url_imdb = "https://www.imdb.com/title/"
 
 headers = {
     "accept": "application/json",
-    "Authorization": "TU_API_KEY"
+    "Authorization": "Header"
 }
 
-tmdb.API_KEY = '1356628c6055918c00ae735c46ec3b15'
+tmdb.API_KEY = 'TU_API_KEY'
 
 search = tmdb.Search()
 
@@ -30,7 +30,6 @@ def listar_ids(pelis):
 
 
 def sacar_datos_pelis(pelis):
-    print("ENTRO2")
     ids = listar_ids(pelis)
     datos = []
 
